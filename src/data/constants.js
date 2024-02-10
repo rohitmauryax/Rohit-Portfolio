@@ -1,15 +1,11 @@
-
 export const Bio = {
   name: "Rohit",
-  roles: [
-    "Full Stack Developer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/rohitmauryax",
   resume:
-    "https://drive.google.com/file/d/1sYq3u69aLNvXcjU5r4qZua-jNVrfxx5C/view?usp=sharing",
+    "https://drive.google.com/file/d/1XCD3oTya7IxWIuVL8agWC02Rb7GE79Fd/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rohit-maurya-3b7a43214/",
   twitter: "https://twitter.com/Rohit_MauryaX",
   insta: "https://www.instagram.com/rohit_mauryax/",
@@ -22,6 +18,11 @@ export const skills = [
     skills: [
       {
         name: "React Js",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "React Native",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -84,13 +85,11 @@ export const skills = [
       // },
       {
         name: "Python",
-        image:
-          "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+        image: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       },
       {
         name: "MySQL",
-        image:
-          "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+        image: "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
       },
       // {
       //   name: "Postgresql",
@@ -112,21 +111,20 @@ export const skills = [
     skills: [
       {
         name: "Java",
-        image:
-          "https://www.vectorlogo.zone/logos/java/java-icon.svg",
+        image: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
       },
       {
         name: "C++",
-        image:"https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png",
       },
       {
         name: "C",
-        image:"https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
       },
       {
         name: "Python",
-        image:
-          "https://www.vectorlogo.zone/logos/python/python-icon.svg",
+        image: "https://www.vectorlogo.zone/logos/python/python-icon.svg",
       },
       // {
       //   name: "Kotlin",
@@ -160,8 +158,7 @@ export const skills = [
       },
       {
         name: "Docker",
-        image:
-          "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+        image: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
       },
       {
         name: "Netlify",
@@ -200,13 +197,7 @@ export const experiences = [
     company: " Putatoe Solutions Pvt. Ltd.",
     date: "April 2023 - July 2023",
     desc: "Worked for an e-commerce company, contributing to the improvement of their platform. Responsibilities included organizing data for better readability on a webpage, addressing various bugs during the internship, enhancing the user interface for existing activities, creating a distinct activity for displaying single products, and working on APIs by fetching and testing data using Postman.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      "React.js", 
-      "Redux.js",
-    ],
+    skills: ["JavaScript", "TypeScript", "Node Js", "React.js", "Redux.js"],
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   // {
@@ -300,7 +291,8 @@ export const education = [
     date: "Aug 2020 - Jul 2024",
     grade: "8.4 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Electronics and Communication Engineering at Bharati Vidyapeeth's College of Engineering, New Delhi. I have completed 7 semesters and have a CGPA of 8.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-    degree: "Bachelor of Technology - BTech, Electronics and Communication Engineering",
+    degree:
+      "Bachelor of Technology - BTech, Electronics and Communication Engineering",
   },
   {
     id: 1,
@@ -329,7 +321,8 @@ export const projects = [
     date: " Nov 2023 – Dec 2023",
     description:
       "Notes Club is a comprehensive platform was developed for accessing notes from various subjects across different universities. The project involved the creation of a RESTful API to manage the backend, implementing a notes upload feature through MongoDB. React-routing was employed for effective page navigation, while Auth0 was integrated for secure login and logout functionalities. The backend utilized Node.js and Express.js to fetch data from MongoDB, and Cloudinary services were employed for efficient storage of shared notes uploaded by students, enhancing the collaborative learning experience.",
-    image:"https://firebasestorage.googleapis.com/v0/b/portfolio-32343.appspot.com/o/NotesClub.png?alt=media&token=66074ff8-5165-4c0e-9234-fce9d369a470",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-32343.appspot.com/o/NotesClub.png?alt=media&token=66074ff8-5165-4c0e-9234-fce9d369a470",
     tags: [
       "React Js",
       "MongoDb",
@@ -377,9 +370,7 @@ export const projects = [
       "This Project focuses on providing users with a comprehensive list of Pokémon. Leveraging the pokeapi.co API, the project retrieves Pokémon data in JSON format. Key features include the implementation of a search bar, enhancing user interaction by enabling them to easily search for specific Pokémon. Additionally, the project stores and displays all successful search results, ensuring a seamless and organized experience for users exploring the Pokémon database.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-32343.appspot.com/o/poke.png?alt=media&token=5e76bff8-b915-433d-a4c9-817d47744450",
-    tags: [
-      "React Js",
-    ],
+    tags: ["React Js"],
     category: "web app",
     github: "https://github.com/rohitmauryax/pokedex",
     webapp: "",
